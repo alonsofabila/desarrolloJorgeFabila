@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<String> bannedPages = new ArrayList<String>();
-        bannedPages.add("www.pornhub.com");
+        bannedPages.add("www.facebook.com");
         bannedPages.add("www.youtube.com");
         bannedPages.add("www.friv.com");
         bannedPages.add("www.wikipedia.com");
@@ -16,11 +16,11 @@ public class Main {
 
         PPage pag2 = new PPage(bannedPages);
         User user2 = new User("Valeria", false);
-        pag2.open("www.friv.com", user2);
+        pag2.open("www.wikipedia.com", user2);
 
         PPage pag3 = new PPage(bannedPages);
         User user3 = new User("Romina", false);
-        pag3.open("www.pornhub.com", user3);
+        pag3.open("www.facebook.com", user3);
 
         PPage pag4 = new PPage(bannedPages);
         User user4 = new User("Alfredo", true);
