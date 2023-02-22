@@ -18,7 +18,4 @@ public class User {
         return permission;
     }
 
-    public void setPermission(boolean permission) {
-        this.permission = permission;
-    }
 }
